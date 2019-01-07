@@ -10,6 +10,6 @@
 
 @interface ViewController : UIViewController
 @property (nonatomic,strong) NSMutableArray *array;
-
+@property(nonatomic,strong) NSString *test;
 @end
 
