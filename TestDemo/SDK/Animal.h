@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Animal : NSObject
 
 @property (nonatomic,assign) NSInteger age;
-
+@property(nonatomic,assign) NSInteger type;
 @end
 
 NS_ASSUME_NONNULL_END
