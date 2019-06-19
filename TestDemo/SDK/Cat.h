@@ -11,6 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Cat : Animal
+{
+    NSInteger _friend;
+}
 @property (nonatomic,copy) NSString *name;
 -(NSString*)getName;
 
