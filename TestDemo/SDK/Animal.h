@@ -15,6 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) NSInteger age;
 
 @property (nonatomic,assign) NSInteger height;
+
+- (NSInteger)getAAage;
+
 @end
 
 NS_ASSUME_NONNULL_END
